@@ -1,0 +1,41 @@
+.trendingVideos{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.videoChildInTrendingVideos{
+   
+    margin: 10px;
+    width: 30%;
+    text-align: center;
+}
+.videoChildInTrendingVideos__video{
+   
+}
+
+.videoChildInTrendingVideos__title {
+    width: 95%;
+    
+    overflow: hidden;
+    position: relative; 
+    line-height: 1.2em;
+    max-height: 2.5em;
+    text-align: justify;  
+    margin-right: -1em;
+    padding-right: 1em;
+  }
+  .videoChildInTrendingVideos__title:before {
+    content: '...';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .videoChildInTrendingVideos__title:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    background: white;
+  }

@@ -1,0 +1,9 @@
+.RecomendVideos{
+    width: 45%;
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+}
+.videoChildInRecomend__title{
+    margin-top: 10px;
+    text-align: center;
+}
